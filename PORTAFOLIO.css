@@ -48,3 +48,29 @@ button {
   text-decoration: none;
   cursor: pointer;
 }
+
+.btn-primary {
+  background-color: var(--color_dark-black);
+  color: var(--color_white);
+}
+
+.btn-secondary {
+  background-color: var(--color_white);
+  color: var(--color_dark-black);
+}
+
+section,
+footer {
+  gap: 64px;
+  padding: 80px 124px;
+  text-align: center;
+}
+
+/* Header DISEÑO */
+header {
+  background-color: var(--color_pink);
+  padding: 20px 124px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
