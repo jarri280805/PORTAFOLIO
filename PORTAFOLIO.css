@@ -8,3 +8,43 @@
   --color_grey: #f7f7f7;
   --color_white: #ffffff;
 }
+/* ESTILOS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Google Font agregada */
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  color: var(--color_dark-black);
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+button {
+  padding: 12px 56px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
